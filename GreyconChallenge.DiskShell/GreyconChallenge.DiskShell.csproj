@@ -19,4 +19,8 @@
         <PackageTags>Greycon,Challenge,Disk,Shell</PackageTags>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\GreyconChallenge.Base\GreyconChallenge.Base.csproj" />
+    </ItemGroup>
+
 </Project>
