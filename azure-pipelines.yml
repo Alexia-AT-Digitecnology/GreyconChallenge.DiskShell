@@ -5,6 +5,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
+- script: git submodule update --init --recursive
 - task: UseDotNet@2
   inputs:
     version: '6.x'
